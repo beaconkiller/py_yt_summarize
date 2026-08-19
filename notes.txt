@@ -1,0 +1,45 @@
+-------------------------------------------------------
+------------------ BEFORE EVERYTHING ------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-- It's advised to run the package manager (PIP)     --
+-- inside a venv. If you're new to python, do this   --
+-- line below (idk if its the proper way or not tho) --
+
+-- python -m venv venv                               --
+
+-- Then activate the venv and proceed to install     --
+-- all the packages using the lines below.           --
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-- Use this to save installed package.               --
+--                                                   --
+-- pip freeze > requirements.txt                     --
+-------------------------------------------------------
+-------------------------------------------------------
+-- Use this to install packages using                --
+-- a requirements.txt                                --
+--                                                   --
+-- pip install -r requirements.txt                   --
+-------------------------------------------------------
+-------------------------------------------------------
+
+
+YT-DLP
+-------------------------------------------------------
+-------------------------------------------------------
+-- This line works for yt-dlp                        --
+--                                                   --
+--                                                   --
+-- python -m pip install -U "yt-dlp[default]"        --
+-------------------------------------------------------
+
+and this line below is working(temporarily) :
+python -m yt_dlp --extractor-args "youtube:player-client=web_embedded,web,tv" --audio-format mp3 "https://www.youtube.com/watch?v=Tq0EHwRYnmg"
+
+for mp3 only :
+python -m yt_dlp -x --audio-format mp3 --extractor-args "youtube:player-client=web_embedded,web,tv" "https://www.youtube.com/watch?v=Tq0EHwRYnmg"
+
+
+
