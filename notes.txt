@@ -41,5 +41,7 @@ python -m yt_dlp --extractor-args "youtube:player-client=web_embedded,web,tv" --
 for mp3 only :
 python -m yt_dlp -x --audio-format mp3 --extractor-args "youtube:player-client=web_embedded,web,tv" "https://www.youtube.com/watch?v=Tq0EHwRYnmg"
 
+other fix :
+python -m yt_dlp --remote-components ejs:github --extractor-args "youtube:player-client=web_embedded,web,tv" --audio-format mp3 "https://www.youtube.com/watch?v=Tq0EHwRYnmg"
 
 

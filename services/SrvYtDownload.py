@@ -55,6 +55,7 @@ class SrvYtDownload:
         url = video_url
 
         options = {
+            "remote_components": ["ejs:github"],            
             "format": "bestaudio",
             "outtmpl": "file_storage/session_result/"+session_id+"/%(id)s(__)%(title)s.%(ext)s",
 

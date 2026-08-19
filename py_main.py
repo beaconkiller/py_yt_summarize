@@ -31,8 +31,8 @@ def main():
     ]
     
     arr_links = [
-        "https://www.youtube.com/watch?v=Tq0EHwRYnmg",
-        "https://www.youtube.com/watch?v=j_pxrIv7vCk",
+        # "https://www.youtube.com/watch?v=Tq0EHwRYnmg",
+        # "https://www.youtube.com/watch?v=j_pxrIv7vCk",
         "https://www.youtube.com/watch?v=upnbKrYa7BE"
         # "https://www.youtube.com/watch?v=u-AUW72Rs1o" # DEBUG VIDEO        
     ]
